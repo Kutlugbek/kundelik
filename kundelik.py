@@ -30,7 +30,7 @@ async def send_message(msg: types.Message, message=None):
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
-driver = webdriver.Chrome(executable_path=r'C:\Users\107\Desktop\kundelik\chromedriver.exe')
+driver = webdriver.Chrome(executable_path=r'chromedriver.exe')
 driver.get("https://login.kundelik.kz/login")
 
 for i in range(1, 47):
